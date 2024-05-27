@@ -5,7 +5,7 @@ It is useful in CTF competitions when you find a hash like this and want to perf
 
 You can install it with the following command:
 ```bash
-go install https://github.com/admiralhr99/pbkdf2-sha256@latest
+go install github.com/admiralhr99/pbkdf2-sha256@latest
 ```
 
 Please pay attention to the hardcoded values for the name of the password list file, salt, iterations, and expected hash.
